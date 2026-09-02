@@ -1,4 +1,5 @@
-_`**By**: Elisha Veriwa`_
+![A beautiful flower](https://unsplash.com/photos/a-lush-green-forest-filled-with-lots-of-trees-fWBZ9r4vO9M)
+
 # The Accountant's World
 Here you Accounting Data Science Projects
 A curated portfolio demonstrating end‑to‑end analytics across accounting, audit, and finance — using R, Python, SQL, Power BI, Tableau, and VBA.
