@@ -1,10 +1,10 @@
 ![A beautiful flower](https://images.unsplash.com/photo-1759681770982-313332e7f42c?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmF0dXJlfGVufDB8fDB8fHww)
 
 # The Accountant's World
-Here you will find Accounting Data Science Projects. A curated portfolio demonstrating end‑to‑end analytics across accounting, audit, and finance — using R, Python, SQL, Power BI, Tableau, and VBA.
+Here you will find Accounting Data Science Projects. A curated portfolio demonstrating end‑to‑end analytics across accounting, audit, and finance — using R, Python, SQL, Power BI, Tableau, and VBA. But more importantly, [how I my skills have evolved]().
 
 ## Overview
-This repository contains 20 realistic Accounting Data Science projects designed to showcase:
+This repository contains 20 realistic Accounting Data Science projects designed to showcase my skills torwads:
 - Financial reporting & reconciliation
 - Audit analytics & anomaly detection
 - Forecasting & predictive modeling
@@ -25,7 +25,7 @@ Each project is structured as a self‑contained folder with scripts, queries, w
 ## Projects
 
 ### 01 — GL Reconciliation Engine (Python + SQL)
-- Objective: Automate general ledger reconciliation by comparing trial balances from two ERPs, identifying mismatches, and categorizing differences.
+- Objective: Automate general ledger reconciliation by comparing trial balances from two ERPs (Sage Eevolution, SAP-FI), identifying mismatches, and categorising differences.
 - Tools: Python (pandas, SQLAlchemy), SQL
 - Key Techniques: Fuzzy matching, left/anti joins, difference scoring
 - Outcome: Reduced manual reconciliation time by ~70% and produced a reconciliation exceptions report.
@@ -37,13 +37,13 @@ Each project is structured as a self‑contained folder with scripts, queries, w
 - Outcome: Focused audit efforts on top 10% highest‑risk line items with documented selection rationale.
 
 ### 03 — Accounts Payable Health Dashboard (Power BI)
-- Objective: Monitor AP aging, vendor concentration, and payment cycle efficiency across business units.
+- Objective: Monitor AP ageing, vendor concentration, and payment cycle efficiency across business units.
 - Tools: Power BI, SQL (data model)
 - Key Techniques: DAX measures for aging buckets, YoY comparisons, drill‑through pages
 - Outcome: Interactive dashboard used by Finance to reduce days payable outstanding (DPO) variability.
 
 ### 04 — Revenue Recognition Analytics (Python + Tableau)
-- Objective: Analyze revenue recognition patterns and identify contracts with non‑standard timing or unusual revenue spikes.
+- Objective: Analyse revenue recognition patterns and identify contracts with non‑standard timing or unusual revenue spikes.
 - Tools: Python (pandas, matplotlib/seaborn), Tableau
 - Key Techniques: Time‑series decomposition, outlier detection, contract cohort analysis
 - Outcome: Supported compliance review by flagging contracts requiring closer inspection.
@@ -60,11 +60,11 @@ Each project is structured as a self‑contained folder with scripts, queries, w
 - Key Techniques: Isolation Forest, DBSCAN, descriptive analytics by department
 - Outcome: Identified potential policy violations and reduced false positive rate via threshold tuning.
 
-### 07 — Budget vs. Actual Variance Tracker (Power BI)
+### 07 — Budget vs Actual Variance Tracker (Power BI)
 - Objective: Build a monthly BvA dashboard with drill‑down from entity → department → account.
 - Tools: Power BI, SQL
 - Key Techniques: DAX for variance calculations, dynamic grouping, bookmarks for views
-- Outcome: Standardized reporting and enabled faster monthly close reviews.
+- Outcome: Standardised reporting and enabled faster monthly close reviews.
 
 ### 08 — Tax Provision Data Pipeline (Python + SQL)
 - Objective: Automate the data pipeline feeding the tax provision workpapers (effective tax rate reconciliation, deferred tax roll‑forwards).
@@ -79,15 +79,15 @@ Each project is structured as a self‑contained folder with scripts, queries, w
 - Outcome: Prioritized worklists for collections team and highlighted top 20 high‑exposure accounts.
 
 ### 10 — Financial Close Process Analytics (Python + VBA)
-- Objective: Analyze close cycle times by task and identify bottlenecks using task‑level timestamps.
+- Objective: Analyse close cycle times by task and identify bottlenecks using task‑level timestamps.
 - Tools: Python (pandas, matplotlib), VBA (data collection macro)
 - Key Techniques: Process mining concepts, duration distributions, outlier detection
-- Outcome: Pinpointed recurring delays and supported close calendar optimization.
+- Outcome: Pinpointed recurring delays and supported close calendar optimisation.
 
 ### 11 — Vendor Master Data Quality & Spend Analysis (Python + SQL)
-- Objective: Clean and deduplicate vendor master data, then analyze spend concentration.
+- Objective: Clean and deduplicate vendor master data, then analyse spend concentration.
 - Tools: Python (recordlinkage, pandas), SQL
-- Key Techniques: Entity resolution, spend categorization, Pareto analysis
+- Key Techniques: Entity resolution, spend categorisation, Pareto analysis
 - Outcome: Improved vendor data quality and highlighted top vendors by spend for negotiation leverage.
 
 ### 12 — Profitability by Customer & Product (R + Power BI)
@@ -99,11 +99,11 @@ Each project is structured as a self‑contained folder with scripts, queries, w
 ### 13 — Intercompany Reconciliation & Netting (Python + SQL)
 - Objective: Automate intercompany matching across entities and propose netting sets.
 - Tools: Python (pandas, networkx), SQL
-- Key Techniques: Graph matching, tolerance‑based pairing, settlement optimization
+- Key Techniques: Graph matching, tolerance‑based pairing, settlement optimisation
 - Outcome: Reduced intercompany mismatches and generated proposed netting summaries.
 
 ### 14 — Audit Trail Analytics & Access Review (SQL + Python)
-- Objective: Analyze ERP audit logs to detect unusual access patterns and segregation‑of‑duties conflicts.
+- Objective: Analyse ERP audit logs to detect unusual access patterns and segregation‑of‑duties conflicts.
 - Tools: SQL (window functions), Python (pandas)
 - Key Techniques: Log parsing, frequency analysis, SOD rule engine
 - Outcome: Produced a SOD conflict dashboard and supported quarterly access reviews.
@@ -132,7 +132,7 @@ Each project is structured as a self‑contained folder with scripts, queries, w
 - Key Techniques: Duplicate detection, threshold rules, statistical tests for outliers
 - Outcome: Reduced payroll error exposure and generated exception reports for HR/Payroll.
 
-### 19 — CapEx vs. OpEx Analysis & Forecast (R + Power BI)
+### 19 — CapEx vs OpEx Analysis & Forecast (R + Power BI)
 - Objective: Classify and forecast capital vs. operating expenditures and project depreciation impact.
 - Tools: R (tidyverse, lubridate), Power BI
 - Key Techniques: Time‑series forecasting, cohort analysis, depreciation schedules
@@ -154,7 +154,7 @@ Each project folder typically contains:
 - dashboards/: Power BI (.pbix) and/or Tableau (.twb/.hyper) workbooks
 - docs/: Project write‑up, assumptions, and summary of findings
 
-Example layout:
+Layout:
 - 01_gl_reconciliation/
   - data/
   - scripts/
@@ -204,7 +204,7 @@ This repository is released under the MIT License
 ---
 From Filing Cabinets to Data Pipelines: A System Architecture Retrospective
 ---
-**_How Managing Decades of Multii-Departmental Records at Whelson Transport Shaped My Data Architecture Philosophy_**
+**_How Managing Decades of Multi-Departmental Records at Whelson Transport Shaped My Data Architecture Philosophy_**
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
@@ -727,9 +727,9 @@ The archive room was my first classroom in data science. I just didn't know it a
 *Generated by Elisha Veriwa | From Physical Archives to Digital Pipelines: A Journey Through Data Architecture*
 
 **Key Reflections:**
-- This expanded version emphasizes the **scale** (47,000+ files, 25+ years, 6 departments)
-- It shows the **complexity** of inter-departmental relationships
-- It demonstrates how physical filing translates to **modern system design principles**
-- It includes **simulations and visualizations** to show the quantum of data
-- It focuses on the **conceptual learnings** rather than just the task
-- It connects the 2015 experience directly to current roles and skills
+- Emphasis on the **scale** (47,000+ files, 25+ years, 6 departments)
+- Real world **complexities** of inter-departmental relationships are real, dynamic, and evolve.
+- This is one way demonstration of how the physical filing archive translates to **modern system design principles**
+- Included **simulations and visualizations** to show the quantum of data
+- I focused on the **conceptual learning curve** rather than just the task
+- I was making an attempt to connect the 2015 experience directly to current roles and skills
