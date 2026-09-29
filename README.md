@@ -214,27 +214,27 @@ library(ggplot2)
 library(tidyr)
 ```
 
-# 1. Introduction: The Archive That Taught Me Scale
+# Introduction: The Archive That Taught Me Scale
 
 In 2015, as an Accounting Intern at Whelson Transport, I was handed what seemed like an impossible task: **organize and file decades of documents spanning multiple departments**. 
 
-This wasn't just about sorting invoices into folders. This was about managing:
+This was not just about sorting invoices into folders. This was about managing:
 - **30+ years of historical records** (dating back to the 1990s)
 - **Cross-departmental dependencies** (Workshop, Operations, IT, Engineering, Finance)
 - **Thousands of interrelated documents** (CD3 forms, vehicle maintenance logs, fuel cards, engineering reports, IT asset registers, operations manifests)
 - **Regulatory compliance requirements** across multiple domains
 
-Looking back, I now realize I wasn't just filing papers—I was **manually implementing a distributed database system** without knowing it. Every filing decision I made was a data architecture choice. Every cross-reference I created was a foreign key relationship. Every retrieval I performed was a database query.
+Looking back, I now realise I was not just filing papers, but I was **manually implementing a distributed database system** without knowing it. Every filing decision I made was a data architecture choice. Every cross-reference I created was a foreign key relationship. Every retrieval I performed was a database query.
 
 This notebook explores how that massive-scale physical filing operation shaped my understanding of **system design, data modeling, and enterprise architecture**—and how those lessons directly influence my current work in financial systems development, business analysis, and data science.
 
 ---
 
-# 2. The 2015 Reality: Enterprise-Scale Physical Archive
+# The 2015 Reality: Enterprise-Scale Physical Archive
 
 ## 2.1 The Quantum of Data
 
-Whelson Transport wasn't a small operation. As a major player in Zimbabwe's transport and logistics sector since the 1990s, the company had accumulated:
+Whelson Transport was not a small operation. As a major player in Zimbabwe's transport and logistics sector since the 1990s, the company had accumulated, because of efficient management of resource and their deployment:
 
 ```{r data_volume, echo=FALSE}
 # Simulating the scale of documents
