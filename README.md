@@ -207,10 +207,13 @@ From Filing Cabinets to Data Pipelines: A System Architecture Retrospective
 **_How Managing Decades of Multi-Departmental Records at Whelson Transport Shaped My Data Architecture Philosophy_**
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+# Set all code chunk 'other output' from popping up
+knitr::opts_chunk$set(echo = TRUE,
+warning = FALSE,
+message = FALSE)
 library(knitr)
-library(dplyr)
-library(ggplot2)
+library(dplyr) # For most part of this EDA
+library(ggplot2) # For visualizations
 library(tidyr)
 ```
 
@@ -320,23 +323,23 @@ Every document required:
 
 ## 3.1 Principle 1: Data Relationships Are Everything
 
-In the physical archive, a **CD3 form** (exchange control document) wasn't just a finance document. It was:
-- Linked to a **purchase order** (Finance)
+In the physical archive, a **CD3 form** (exchange control document) was not just a finance document. It was:
+- Linked to a **manifest** or purchase order in some School of Thought (Finance)
 - Linked to a **goods receipt note** (Operations/Warehouse)
 - Linked to a **vehicle trip sheet** (Operations)
 - Linked to a **maintenance record** if it was for vehicle parts (Workshop)
 - Linked to an **IT asset register** if it was for computer equipment (IT)
 
-**Modern Translation**: This is exactly how I now design **relational database schemas** with proper foreign key relationships. Every table must know its relationships to other tables.
+**Modern Translation**: This is exactly how I learnt to design **relational database schemas** with proper foreign key relationships. Every table must know its relationships to other tables.
 
 ```{r relational_model, echo=TRUE, eval=FALSE}
 -- Modern SQL Implementation of What I Learned Physically
 
 CREATE TABLE Transactions (
-    transaction_id UUID PRIMARY KEY,
-    transaction_date DATE,
-    amount DECIMAL(15,2),
-    transaction_type VARCHAR(50)
+    transaction_id UUID PRIMARY KEY, -- Unique Id for each record
+    transaction_date DATE, -- Date of revenue realisation
+    amount DECIMAL(15,2), -- Transaction value and not paid amount
+    transaction_type VARCHAR(50) -- Income/Expenditure account type
 );
 
 CREATE TABLE Departments (
