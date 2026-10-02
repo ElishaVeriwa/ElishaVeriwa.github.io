@@ -1,24 +1,25 @@
 ![A beautiful flower](https://images.unsplash.com/photo-1759681770982-313332e7f42c?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmF0dXJlfGVufDB8fDB8fHww)
 
 # The Accountant's World
-Here you will find Accounting Data Science Projects. A curated portfolio demonstrating end‑to‑end analytics across accounting, audit, and finance — using R, Python, SQL, Power BI, Tableau, and VBA. But more importantly, [how I my skills have evolved]().
+Here expect to browse across various Accounting Data Science Projects. A curated portfolio demonstrating my end‑to‑end analytics across accounting, audit, and finance — using R, Python, SQL, Power BI, Tableau, and VBA. But more importantly, [how I have been ambitious to upskill myself and how that has evolved]().
 
 ## Overview
-This repository contains 20 realistic Accounting Data Science projects designed to showcase my skills torwads:
+This repository contains 20 real business Accounting Data Science projects designed to showcase these skills I now portray torwads:
 - Financial reporting & reconciliation
 - Audit analytics & anomaly detection
 - Forecasting & predictive modeling
 - Cost & profitability analysis
 - Tax & compliance analytics
 - Process automation & scalable dashboards
+- Data Entry, Archive, Extraction, Transformation and Visualization
 
-Each project is structured as a self‑contained folder with scripts, queries, workbooks, and a short write‑up explaining the objective, approach, and insights.
+Each of these projects is structured as a self contained folder/directory with data, scripts, queries, workbooks, and a short write‑up explaining the objective, approach, and insights.
 
 ## Tech Stack
 - Languages & Scripting: Python, R, SQL, VBA
 - BI & Visualization: Power BI, Tableau
 - Data Storage: SQL Server / PostgreSQL / SQLite (as noted per project)
-- Tools: Excel, Jupyter Notebooks, RMarkdown
+- Tools: Excel, Jupyter Notebooks, RStudio, RMarkdown
 
 ---
 
@@ -26,7 +27,7 @@ Each project is structured as a self‑contained folder with scripts, queries, w
 
 ### 01 — GL Reconciliation Engine (Python + SQL)
 - Objective: Automate general ledger reconciliation by comparing trial balances from two ERPs (Sage Eevolution, SAP-FI), identifying mismatches, and categorising differences.
-- Tools: Python (pandas, SQLAlchemy), SQL
+- Tools: Python (pandas, SQLAlchemy), R (tidyverse), SQL (SQLite, MYSQL, PostgreSQL)
 - Key Techniques: Fuzzy matching, left/anti joins, difference scoring
 - Outcome: Reduced manual reconciliation time by ~70% and produced a reconciliation exceptions report.
 
@@ -419,8 +420,9 @@ Let me demonstrate how the physical filing complexity translates to a modern dat
 ```{r multi_dept_simulation}
 # Simulating Whelson Transport's Multi-Departmental Document System
 
+# Loading necessary libraries
 library(lubridate)
-set.seed(42)
+set.seed(42) # Maintain reproducibility
 
 # 1. Create Department Reference Data
 departments <- data.frame(
