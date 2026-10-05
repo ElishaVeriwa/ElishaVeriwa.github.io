@@ -736,7 +736,7 @@ The archive room was my first classroom in data science. I just didn't know it a
 **Key Reflections:**
 - Emphasis on the **scale** (47,000+ files, 25+ years, 6 departments)
 - Real world **complexities** of inter-departmental relationships are real, dynamic, and evolve.
-- This is one way demonstration of how the physical filing archive translates to **modern system design principles**
+- This is one way demonstration of how I have learnt to translate the physical filing archive to **modern system design principles**
 - Included **simulations and visualizations** to show the quantum of data
 - I focused on the **conceptual learning curve** rather than just the task
 - I was making an attempt to connect the 2015 experience directly to current roles and skills
