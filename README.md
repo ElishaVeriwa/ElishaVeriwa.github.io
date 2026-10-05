@@ -205,7 +205,9 @@ This repository is released under the MIT License
 ---
 From Filing Cabinets to Data Pipelines: A System Architecture Retrospective
 ---
+
 **_How Managing Decades of Multi-Departmental Records at Whelson Transport Shaped My Data Architecture Philosophy_**
+---
 
 ```{r setup, include=FALSE}
 # Set all code chunk 'other output' from popping up
