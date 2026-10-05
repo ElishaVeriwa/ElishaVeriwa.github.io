@@ -3,7 +3,7 @@ name: Render README.Rmd to README.md
 on:
   push:
     paths:
-      - 'README.Rmd'
+      - '../README.Rmd'
   workflow_dispatch: # Allows you to run it manually from the Actions tab
 
 jobs:
